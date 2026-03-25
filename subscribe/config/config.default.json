@@ -1,27 +1,75 @@
 {
     "domains": [
         {
-            "name": "Auto_Register_Pool",
+            "name": "byijsq",
             "enable": true,
-            "domain": [
-                "byijsq.com", "137531.xyz", "panel2.fast8888.com", "panel.fast8888.com",
-                "api.tuyue.io", "panel.388885.xyz", "cainiao56.top", "ok181.ru"
-            ],
-            "push_to": ["my_nodes"],
-            "count": 1,
-            "renew": { "account": [], "plan_id": 1 }
+            "domain": "byijsq.com",
+            "push_to": ["my_nodes"]
+        },
+        {
+            "name": "fast8888",
+            "enable": true,
+            "domain": "panel2.fast8888.com",
+            "push_to": ["my_nodes"]
+        },
+        {
+            "name": "cainiao56",
+            "enable": true,
+            "domain": "cainiao56.top",
+            "push_to": ["my_nodes"]
+        },
+        {
+            "name": "ok181",
+            "enable": true,
+            "domain": "ok181.ru",
+            "push_to": ["my_nodes"]
+        },
+        {
+            "name": "louwangzhiyu",
+            "enable": true,
+            "domain": "www.louwangzhiyu.org",
+            "push_to": ["my_nodes"]
+        },
+        {
+            "name": "mgnet",
+            "enable": true,
+            "domain": "mgnet.vip",
+            "push_to": ["my_nodes"]
+        },
+        {
+            "name": "hmdy1",
+            "enable": true,
+            "domain": "hmdy1.top",
+            "push_to": ["my_nodes"]
+        },
+        {
+            "name": "catjun",
+            "enable": true,
+            "domain": "catjun.icu",
+            "push_to": ["my_nodes"]
         }
+        // 提示：若需添加更多域名，请按此格式继续增加对象
     ],
     "crawl": {
         "enable": true,
-        "github": { "enable": true, "pages": 2, "push_to": ["my_nodes"] },
+        "github": {
+            "enable": true,
+            "pages": 2,
+            "push_to": ["my_nodes"]
+        },
         "pages": [
             {
-                "name": "Fixed_Sub_Links",
+                "name": "Fixed_Subs",
                 "enable": true,
                 "url": [
                     "https://ozwhvroaxw7x8y8osqg.gym-gpt.com/link/Lyv2wjCBDrazpsSG?sub=3",
                     "https://ok181.ru/dada/shui?token=74709fbaf7c26907eadcb3c9bbfbfa9b",
+                    "https://panel2.fast8888.com/api/v1/client/subscribe?token=e4c511e1c899fe2f7b38f86654c97070",
+                    "https://panel.fast8888.com/api/v1/client/subscribe?token=685c6173544dee19b7b7ad5614e04947",
+                    "https://vip.ruixing.fun/vip/e82090c5450f61e84a30ff5e3e249054",
+                    "https://api.tuyue.io/s/7b1c596ddca8ef71f43595b1ace5b59a",
+                    "https://ttxdb.louwangzhiyu.website/api/v1/client/subscribe?token=996f5f742179b505f692e4f33f269b9b",
+                    "https://blue.nenetwork.top/link/tvNPeBn22QVrq5EJ?sub=3",
                     "https://catjun.cc/link/hI9mlVhjcQqBbfJz?sub=3"
                 ],
                 "push_to": ["my_nodes"]
@@ -37,7 +85,10 @@
                 "clash": "final-clash",
                 "singbox": "final-singbox"
             },
-            "regularize": { "enable": true, "locate": true }
+            "regularize": {
+                "enable": true,
+                "locate": true
+            }
         }
     },
     "storage": {

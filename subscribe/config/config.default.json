@@ -1,204 +1,89 @@
 {
     "domains": [
         {
-            "name": "",
-            "sub": [],
-            "domain": "",
+            "name": "Auto_Register_Pool",
             "enable": true,
-            "rename": "",
-            "include": "",
-            "exclude": "",
-            "push_to": [],
-            "ignorede": true,
-            "liveness": true,
-            "rate": 2.5,
-            "count": 2,
-            "coupon": "",
-            "secure": false,
+            "domain": [
+                "byijsq.com", "137531.xyz", "panel2.fast8888.com", "panel.fast8888.com",
+                "api.tuyue.io", "panel.388885.xyz", "cainiao56.top", "ok181.ru",
+                "ch.louwangzhiyu.org", "tz.louwangzhiyu.org", "www.louwangzhiyu.org",
+                "studycloud.crazykangaroo.space", "vpnplumber.site", "supercloud666.link",
+                "blue.nenetwork.top", "mgnet.vip", "necloud.win", "mgjs.site",
+                "xfapp.quickbeevpn.com", "dzghost.com", "flyparts.cn", "admin.tianmiao.icu",
+                "a.kny666.com", "kn.fnyou.me", "subscribe.hyjsos.xyz", "hmdy1.top",
+                "cainiao13.icu", "i.chinablog.xyz", "www.dneight.xyz", "manage.330206.xyz",
+                "888.yiyuanjiasu001.com", "aa.vpnreal.net", "test.330206.xyz", "lisicloud.org",
+                "panel.pkgvps.dpdns.org", "go.ruixing.fun", "www.fizo.cc", "a.mlapi3.cc",
+                "xbb.nai99.top", "jkk.nai99.top", "b.ripwall.men", "a.ripwall.men",
+                "hf-test.msdnoff365.tk", "admin.flvps.net", "subscribe.vpn33.net", "fl221.com",
+                "admw.tmtb.top", "vpn.cencat.top", "limisuidao.com", "zzyun.cc",
+                "argo.ooo", "ripwall.men", "520yg.top", "catjun.icu", "520vip520.xyz"
+            ],
+            "push_to": ["my_nodes"],
+            "count": 1,
             "renew": {
-                "account": [
-                    {
-                        "email": "",
-                        "passwd": "",
-                        "ticket": {
-                            "enable": true,
-                            "autoreset": false,
-                            "subject": "",
-                            "message": "",
-                            "level": 1
-                        }
-                    }
-                ],
-                "plan_id": 3,
-                "package": "",
-                "method": 1,
-                "coupon_code": "",
-                "chatgpt": {
-                    "enable": true,
-                    "regex": "",
-                    "operate": "IN"
-                }
+                "account": [],
+                "plan_id": 1
             }
         }
     ],
     "crawl": {
         "enable": true,
-        "exclude": "",
-        "threshold": 5,
-        "singlelink": true,
-        "persist": {
-            "subs": "crawledsubs",
-            "proxies": "crawledproxies"
-        },
-        "config": {
-            "rename": "",
-            "include": "",
-            "exclude": "",
-            "xxxxxxx": ""
-        },
-        "telegram": {
-            "enable": true,
-            "pages": 5,
-            "exclude": "",
-            "users": {
-                "channel": {
-                    "include": "",
-                    "exclude": "",
-                    "config": {
-                        "rename": "",
-                        "xxxxxx": ""
-                    },
-                    "push_to": []
-                }
-            }
-        },
-        "google": {
-            "enable": false,
-            "exclude": "",
-            "limits": 100,
-            "notinurl": [],
-            "push_to": []
-        },
-        "yandex": {
-            "enable": false,
-            "exclude": "",
-            "within": 3,
-            "pages": 5,
-            "notinurl": [],
-            "push_to": []
-        },
         "github": {
             "enable": true,
             "pages": 2,
-            "push_to": [],
-            "exclude": "",
-            "spams": []
+            "push_to": ["my_nodes"]
         },
-        "twitter": {
-            "enable": true,
-            "users": {
-                "username": {
-                    "enable": true,
-                    "num": 30,
-                    "include": "",
-                    "exclude": "",
-                    "config": {
-                        "rename": "",
-                        "xxxxxx": ""
-                    },
-                    "push_to": []
-                }
-            }
-        },
-        "repositories": [
-            {
-                "enable": false,
-                "username": "",
-                "repo_name": "",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            }
-        ],
         "pages": [
             {
+                "name": "Fixed_Sub_Links",
                 "enable": true,
-                "url": "",
-                "include": "",
-                "exclude": "",
-                "multiple": true,
-                "placeholder": "",
-                "start": 1,
-                "end": 10,
-                "config": {
-                    "rename": ""
-                },
-                "push_to": []
-            }
-        ],
-        "scripts": [
-            {
-                "enable": false,
-                "script": "file#function",
-                "params": {
-                    "persist": {
-                        "fileid": ""
-                    },
-                    "any": "xxx",
-                    "config": {
-                        "enable": true,
-                        "liveness": true,
-                        "exclude": "",
-                        "rename": "",
-                        "push_to": []
-                    }
-                }
+                "url": [
+                    "https://ozwhvroaxw7x8y8osqg.gym-gpt.com/link/Lyv2wjCBDrazpsSG?sub=3",
+                    "https://ok181.ru/dada/shui?token=74709fbaf7c26907eadcb3c9bbfbfa9b",
+                    "https://panel2.fast8888.com/api/v1/client/subscribe?token=e4c511e1c899fe2f7b38f86654c97070",
+                    "https://panel.fast8888.com/api/v1/client/subscribe?token=685c6173544dee19b7b7ad5614e04947",
+                    "https://vip.ruixing.fun/vip/e82090c5450f61e84a30ff5e3e249054",
+                    "https://api.tuyue.io/s/7b1c596ddca8ef71f43595b1ace5b59a",
+                    "https://ttxdb.louwangzhiyu.website/api/v1/client/subscribe?token=996f5f742179b505f692e4f33f269b9b",
+                    "https://blue.nenetwork.top/link/tvNPeBn22QVrq5EJ?sub=3",
+                    "https://xf.quickbeevpn.com/api/v1/client/subscribe?token=0f4dc5bbeb9f10257ecacd913dc46ca9",
+                    "https://hmdy1.top/s/67b2744bd82fa6917b0225afc50fc0fe",
+                    "https://rikki.tomorin.xyz/HonkaiStarRail/071b791de3bb09d6a293cad93505c5ba",
+                    "https://catjun.cc/link/hI9mlVhjcQqBbfJz?sub=3"
+                    // 注：此处可继续添加剩余的带Token的长链接
+                ],
+                "push_to": ["my_nodes"]
             }
         ]
     },
     "groups": {
-        "xxx": {
+        "my_nodes": {
             "emoji": true,
             "list": true,
+            "exclude": "louwangzhiyu|yywhale|nxxbbf|slianvpn",
             "targets": {
-                "clash": "xxx-clash",
-                "singbox": "xxx-singbox",
-                "v2ray": "xxx-v2ray"
+                "clash": "final-clash",
+                "singbox": "final-singbox"
             },
             "regularize": {
-                "enable": false,
-                "locate": true,
-                "residential": true,
-                "bits": 2
+                "enable": true,
+                "locate": true
             }
         }
     },
     "storage": {
-        "engine": "xxx",
-        "base": "https://api.xxx.com",
-        "domain": "https://xxx.com",
+        "engine": "gist",
         "items": {
-            "xxx-clash": {
-                "username": "",
-                "folderid": "",
-                "fileid": ""
+            "final-clash": {
+                "username": "qjlxg",
+                "gistid": "f98bb27c4ded97f7e76a910c2f1a8010",
+                "filename": "config.yaml"
             },
-            "xxx-singbox": {
-                "fileid": ""
-            },
-            "xxx-v2ray": {
-                "username": "",
-                "fileid": ""
-            },
-            "crawledsubs": {
-                "username": "",
-                "folderid": "",
-                "fileid": ""
-            },
-            "crawledproxies": {
-                "username": "",
-                "folderid": "",
-                "fileid": ""
+            "final-singbox": {
+                "username": "qjlxg",
+                "gistid": "f98bb27c4ded97f7e76a910c2f1a8010",
+                "filename": "config.json"
             }
         }
     }

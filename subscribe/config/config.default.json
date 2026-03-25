@@ -7,13 +7,13 @@
             "push_to": ["my_nodes"]
         },
         {
-            "name": "fast8888",
+            "name": "fast888",
             "enable": true,
             "domain": "panel2.fast8888.com",
             "push_to": ["my_nodes"]
         },
         {
-            "name": "cainiao56",
+            "name": "cainiao",
             "enable": true,
             "domain": "cainiao56.top",
             "push_to": ["my_nodes"]
@@ -25,7 +25,7 @@
             "push_to": ["my_nodes"]
         },
         {
-            "name": "louwangzhiyu",
+            "name": "louwang",
             "enable": true,
             "domain": "www.louwangzhiyu.org",
             "push_to": ["my_nodes"]
@@ -48,7 +48,6 @@
             "domain": "catjun.icu",
             "push_to": ["my_nodes"]
         }
-        // 提示：若需添加更多域名，请按此格式继续增加对象
     ],
     "crawl": {
         "enable": true,
